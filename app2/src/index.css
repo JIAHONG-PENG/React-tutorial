@@ -1,0 +1,119 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 250px;
+  height: 550px;
+  background-color: #282D35;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.box .info .photo {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+
+.box .info .text .name {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.box .info .text .company {
+  color: white;
+  text-align: center;
+  /* color: orange; */
+  font-size: 14px;
+}
+
+.box .info .text .webname {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.box .info .button {
+  /* width: auto; */
+  /* height: 50px; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding: 0 25px;
+}
+
+.box .info .button div {
+  width: 90px;
+  height: 25px;
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.box .info .button .mail {
+  background-color: white;
+}
+
+.box .info .button .mail:hover {
+  cursor: pointer;
+}
+
+.box .info .button .linkedin {
+  background-color: lightskyblue;
+}
+
+.box .info .button .linkedin:hover {
+  cursor: pointer;
+}
+
+.box .info .button .mail .text {
+  margin-left: 35px;
+}
+
+.box .info .button .linkedin .text {
+  color: white;
+  margin-left: 35px;
+}
+
+.box .about {
+  padding: 0 25px;
+  margin-top: 25px;
+}
+
+.box .about .title {
+  color: white;
+  font-size: 15px;
+}
+
+.box .about .content {
+  margin-top: 2px;
+  font-size: 12px;
+  color: white;
+}
+
+.box .interests {
+  padding: 0 25px;
+  margin-top: 15px;
+}
+
+.box .interests .title {
+  color: white;
+  font-size: 15px;
+}
+
+.box .interests .content {
+  margin-top: 2px;
+  font-size: 12px;
+  color: white;
+}

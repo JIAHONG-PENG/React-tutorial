@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.App {
+  width: 100%;
+  border-radius: 12px 12px 0 0 ;
+  overflow: hidden;
+}
+
+.App .nav-bar {
+  background-color: #d24c56;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.App .nav-bar .header {
+  display: flex;
+  align-self: center;
+}
+
+.App .nav-bar .header .header-text {
+  align-self: center;
+  color: white;
+}
+
+.App .nav-bar .header img {
+  width: 26px;
+  height: 26px;
+  margin-right: 6px;
+}
+
+.App .cards {
+  /* background-color: black; */
+  /* height: 100px; */
+  margin-top: 50px;
+  padding: 0 50px;
+}
+
+.App .card {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.App .card .photo {
+  width: 200px;
+  height: 100%;
+  flex-shrink: 0;
+  /* border-radius: 5px; */
+}
+
+.App .card .photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.App .card .text {
+  margin-left: 20px;
+  width: 500px;
+}
+
+.App .card .text .country {
+  margin-top: 20px;
+  /* position: relative; */
+  display: flex;
+  /* font-size: px; */
+  font-weight: 500;
+}
+
+.App .card .text .country img {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.App .card .text .country a {
+  margin-left: 15px;
+  color: gray;
+  font-size: 14px;
+  /* line-height: 20px; */
+  margin-top: auto;
+  font-weight: 400;
+}
+
+.App .card .text .location {
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.App .card .text .date {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.App .card .text .content {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.App .cards .card:last-child {
+  margin-bottom: 0;
+}
+
